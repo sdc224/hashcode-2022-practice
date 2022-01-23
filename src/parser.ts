@@ -8,7 +8,7 @@ const parse = (file: string): Input => {
 	return {};
 };
 //reads the best score for the case stored in 'file', returns 0 otherwise
-export const read_score = (file: string): number => {
+export const readScore = (file: string): number => {
 	try {
 		const data = fs.readFileSync(file, "ascii");
 		return parseFloat(data);

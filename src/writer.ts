@@ -1,4 +1,5 @@
 import * as fs from "fs";
+
 import { Solution } from "./solver";
 
 const write = (solution: Solution, file: string) => {
@@ -8,7 +9,7 @@ const write = (solution: Solution, file: string) => {
 };
 
 //caches the best score to file
-export const write_score = (score: number, file: string) => {
+export const writeScore = (score: number, file: string) => {
 	fs.writeFileSync(file, `${score}`);
 };
 
