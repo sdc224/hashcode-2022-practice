@@ -19,7 +19,7 @@
 	},
 	"devDependencies": {
 		"@types/lodash": "4.14.178",
-		"@types/node": "16.11.22",
+		"@types/node": "20.11.30",
 		"prettier": "2.5.1"
 	}
 }
